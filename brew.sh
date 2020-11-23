@@ -26,6 +26,7 @@ brew update -v
 
 PACKAGES=(
   git
+  yarn
   bat
   fzf
   readline
@@ -35,6 +36,10 @@ brew install ${PACKAGES[@]}
 # any additional steps you want to add here
 # link readline
 brew link --force readline
+
+echo "Fira code"
+brew tap caskroom/fonts
+brew cask install font-fira-code
 
 echo "Cleaning up..."
 brew cleanup
