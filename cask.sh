@@ -31,7 +31,6 @@ CASKS=(
   visual-studio-code
   vlc
   vnc-viewer
-
 )
 
 brew cask install ${CASKS[@]}
@@ -45,7 +44,7 @@ brew cask install ${CASKS[@]}
 # Adobe XD
 # MidiHub editor
 # MaxMSP
-# ABleton
+# Ableton
 # SoundToys
 # Elektron
 # Motu
