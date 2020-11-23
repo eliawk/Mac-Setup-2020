@@ -21,7 +21,7 @@ CASKS=(
   rectangle
   skype
   slack
-  streamio
+  stremio
   steam
   supercollider
   telegram
