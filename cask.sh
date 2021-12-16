@@ -13,9 +13,10 @@ CASKS=(
   iterm2
   lepton
   midi-monitor
-  mpeg-streamclip
   nordvpn
   opera
+  chrome
+  firefox
   poedit
   postman
   rectangle
@@ -33,7 +34,7 @@ CASKS=(
   vnc-viewer
 )
 
-brew cask install ${CASKS[@]}
+brew install ${CASKS[@]}
 
 # Not in cask
 

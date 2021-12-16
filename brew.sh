@@ -15,7 +15,7 @@ fi
 echo "Check Homebrew"
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
   echo "Already installed!"
 fi
@@ -39,7 +39,7 @@ brew link --force readline
 
 echo "Fira code"
 brew tap caskroom/fonts
-brew cask install font-fira-code
+brew install --cask font-fira-code
 
 echo "Cleaning up..."
 brew cleanup
